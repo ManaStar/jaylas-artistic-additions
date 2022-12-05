@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[43,)"
-license="All rights reserved"
+license="GNU Lesser General Public License v3.0"
 
 [[mods]]
 modId="artistic_additions"
