@@ -4,6 +4,8 @@ import com.mitebemodding.artistic_additions.core.data.client.AALanguageProvider;
 import com.mitebemodding.artistic_additions.core.data.server.AALootTableProvider;
 import com.mitebemodding.artistic_additions.core.data.server.AARecipeProvider;
 import com.mitebemodding.artistic_additions.core.data.server.tags.AABlockTagsProvider;
+import com.mitebemodding.artistic_additions.core.data.server.tags.AAItemTagsProvider;
+import com.mitebemodding.artistic_additions.core.other.AACompat;
 import com.mitebemodding.artistic_additions.core.registry.AABlocks;
 import com.mitebemodding.artistic_additions.core.registry.AAItems;
 import com.mojang.logging.LogUtils;
@@ -39,13 +41,14 @@ public class ArtisticAdditions
 
     @SubscribeEvent
     public void commonSetup(FMLCommonSetupEvent event) {
-
+        event.enqueueWork(AACompat::init);
     }
 
     @SubscribeEvent
     public void gatherData(GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();
         ExistingFileHelper fileHelper = event.getExistingFileHelper();
+        AABlockTagsProvider blockTagsProvider = new AABlockTagsProvider(generator, fileHelper);
 
         //Client
         generator.addProvider(event.includeClient(), new AALanguageProvider(generator));
@@ -53,6 +56,7 @@ public class ArtisticAdditions
         //Server
         generator.addProvider(event.includeServer(), new AALootTableProvider(generator));
         generator.addProvider(event.includeServer(), new AARecipeProvider(generator));
-        generator.addProvider(event.includeServer(), new AABlockTagsProvider(generator, fileHelper));
+        generator.addProvider(event.includeServer(), blockTagsProvider);
+        generator.addProvider(event.includeServer(), new AAItemTagsProvider(generator, blockTagsProvider, fileHelper));
     }
 }
