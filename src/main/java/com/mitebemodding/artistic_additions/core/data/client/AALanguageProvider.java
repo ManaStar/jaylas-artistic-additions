@@ -19,5 +19,7 @@ public class AALanguageProvider extends LanguageProvider {
         add(AABlocks.ACACIA_LATTICE.get(), "Acacia Lattice");
         add(AABlocks.DARK_OAK_LATTICE.get(), "Dark Oak Lattice");
         add(AABlocks.MANGROVE_LATTICE.get(), "Mangrove Lattice");
+        add(AABlocks.CRIMSON_LATTICE.get(), "Crimson Lattice");
+        add(AABlocks.WARPED_LATTICE.get(), "Warped Lattice");
     }
 }

@@ -18,6 +18,7 @@ public class AAItems {
     public static final RegistryObject<Item> ACACIA_LATTICE = ITEMS.register("acacia_lattice", () -> new BlockItem(AABlocks.ACACIA_LATTICE.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
     public static final RegistryObject<Item> DARK_OAK_LATTICE = ITEMS.register("dark_oak_lattice", () -> new BlockItem(AABlocks.DARK_OAK_LATTICE.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
     public static final RegistryObject<Item> MANGROVE_LATTICE = ITEMS.register("mangrove_lattice", () -> new BlockItem(AABlocks.MANGROVE_LATTICE.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-
+    public static final RegistryObject<Item> CRIMSON_LATTICE = ITEMS.register("crimson_lattice", () -> new BlockItem(AABlocks.CRIMSON_LATTICE.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> WARPED_LATTICE = ITEMS.register("warped_lattice", () -> new BlockItem(AABlocks.WARPED_LATTICE.get(), new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
 
 }

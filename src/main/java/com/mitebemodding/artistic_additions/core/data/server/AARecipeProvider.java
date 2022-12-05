@@ -30,6 +30,8 @@ public class AARecipeProvider extends RecipeProvider {
         latticeRecipe(Items.ACACIA_PLANKS, AAItems.ACACIA_LATTICE, consumer);
         latticeRecipe(Items.DARK_OAK_PLANKS, AAItems.DARK_OAK_LATTICE, consumer);
         latticeRecipe(Items.MANGROVE_PLANKS, AAItems.MANGROVE_LATTICE, consumer);
+        latticeRecipe(Items.CRIMSON_PLANKS, AAItems.CRIMSON_LATTICE, consumer);
+        latticeRecipe(Items.WARPED_PLANKS, AAItems.WARPED_LATTICE, consumer);
     }
 
     public static void latticeRecipe(ItemLike planks, Supplier<Item> lattice, Consumer<FinishedRecipe> consumer) {

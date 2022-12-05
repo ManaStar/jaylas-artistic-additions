@@ -47,6 +47,8 @@ public class AALootTableProvider extends LootTableProvider {
             this.dropSelf(AABlocks.ACACIA_LATTICE.get());
             this.dropSelf(AABlocks.DARK_OAK_LATTICE.get());
             this.dropSelf(AABlocks.MANGROVE_LATTICE.get());
+            this.dropSelf(AABlocks.CRIMSON_LATTICE.get());
+            this.dropSelf(AABlocks.WARPED_LATTICE.get());
         }
 
         @Override

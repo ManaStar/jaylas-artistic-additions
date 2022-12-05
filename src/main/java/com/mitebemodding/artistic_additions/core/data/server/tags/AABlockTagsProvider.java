@@ -5,6 +5,7 @@ import com.mitebemodding.artistic_additions.core.registry.AABlocks;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.tags.BlockTagsProvider;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
 
@@ -22,7 +23,13 @@ public class AABlockTagsProvider extends BlockTagsProvider {
                 AABlocks.JUNGLE_LATTICE.get(),
                 AABlocks.ACACIA_LATTICE.get(),
                 AABlocks.DARK_OAK_LATTICE.get(),
-                AABlocks.MANGROVE_LATTICE.get()
+                AABlocks.MANGROVE_LATTICE.get(),
+                AABlocks.CRIMSON_LATTICE.get(),
+                AABlocks.WARPED_LATTICE.get()
+        );
+        tag(BlockTags.NON_FLAMMABLE_WOOD).add(
+                AABlocks.CRIMSON_LATTICE.get(),
+                AABlocks.WARPED_LATTICE.get()
         );
     }
 }

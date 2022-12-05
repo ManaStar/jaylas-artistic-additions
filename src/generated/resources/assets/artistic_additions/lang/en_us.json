@@ -1,9 +1,11 @@
 {
   "block.artistic_additions.acacia_lattice": "Acacia Lattice",
   "block.artistic_additions.birch_lattice": "Birch Lattice",
+  "block.artistic_additions.crimson_lattice": "Crimson Lattice",
   "block.artistic_additions.dark_oak_lattice": "Dark Oak Lattice",
   "block.artistic_additions.jungle_lattice": "Jungle Lattice",
   "block.artistic_additions.mangrove_lattice": "Mangrove Lattice",
   "block.artistic_additions.oak_lattice": "Oak Lattice",
-  "block.artistic_additions.spruce_lattice": "Spruce Lattice"
+  "block.artistic_additions.spruce_lattice": "Spruce Lattice",
+  "block.artistic_additions.warped_lattice": "Warped Lattice"
 }

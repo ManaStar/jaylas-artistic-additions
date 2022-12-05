@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_column",
+  "render_type": "solid",
+  "textures": {
+    "side": "artistic_additions:block/warped_lattice",
+    "end": "minecraft:block/warped_planks"
+  }
+}
