@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "artistic_additions:block/dark_oak_lattice"
+    "end": "minecraft:block/dark_oak_planks",
+    "side": "artistic_additions:block/dark_oak_lattice"
   }
 }

@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "artistic_additions:block/mangrove_lattice"
+    "end": "minecraft:block/mangrove_planks",
+    "side": "artistic_additions:block/mangrove_lattice"
   }
 }

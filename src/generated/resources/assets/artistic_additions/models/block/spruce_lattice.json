@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "artistic_additions:block/spruce_lattice"
+    "end": "minecraft:block/spruce_planks",
+    "side": "artistic_additions:block/spruce_lattice"
   }
 }

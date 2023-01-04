@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "artistic_additions:block/acacia_lattice"
+    "end": "minecraft:block/acacia_planks",
+    "side": "artistic_additions:block/acacia_lattice"
   }
 }

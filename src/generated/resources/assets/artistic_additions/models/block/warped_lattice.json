@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "artistic_additions:block/warped_lattice"
+    "end": "minecraft:block/warped_planks",
+    "side": "artistic_additions:block/warped_lattice"
   }
 }
