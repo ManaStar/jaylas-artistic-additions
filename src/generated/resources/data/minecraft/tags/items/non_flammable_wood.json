@@ -1,6 +1,8 @@
 {
   "values": [
     "artistic_additions:crimson_lattice",
-    "artistic_additions:warped_lattice"
+    "artistic_additions:warped_lattice",
+    "artistic_additions:crimson_crate",
+    "artistic_additions:warped_crate"
   ]
 }

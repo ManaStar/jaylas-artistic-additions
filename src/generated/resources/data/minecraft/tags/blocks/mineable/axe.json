@@ -8,6 +8,15 @@
     "artistic_additions:dark_oak_lattice",
     "artistic_additions:mangrove_lattice",
     "artistic_additions:crimson_lattice",
-    "artistic_additions:warped_lattice"
+    "artistic_additions:warped_lattice",
+    "artistic_additions:oak_crate",
+    "artistic_additions:spruce_crate",
+    "artistic_additions:birch_crate",
+    "artistic_additions:jungle_crate",
+    "artistic_additions:acacia_crate",
+    "artistic_additions:dark_oak_crate",
+    "artistic_additions:mangrove_crate",
+    "artistic_additions:crimson_crate",
+    "artistic_additions:warped_crate"
   ]
 }

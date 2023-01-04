@@ -18,7 +18,10 @@ public class AAItemTagsProvider extends ItemTagsProvider {
     protected void addTags() {
         tag(ItemTags.NON_FLAMMABLE_WOOD).add(
                 AAItems.CRIMSON_LATTICE.get(),
-                AAItems.WARPED_LATTICE.get()
+                AAItems.WARPED_LATTICE.get(),
+
+                AAItems.CRIMSON_CRATE.get(),
+                AAItems.WARPED_CRATE.get()
         );
     }
 }

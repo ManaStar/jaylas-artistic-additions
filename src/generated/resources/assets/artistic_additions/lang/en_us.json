@@ -1,11 +1,20 @@
 {
+  "block.artistic_additions.acacia_crate": "Acacia Crate",
   "block.artistic_additions.acacia_lattice": "Acacia Lattice",
+  "block.artistic_additions.birch_crate": "Birch Crate",
   "block.artistic_additions.birch_lattice": "Birch Lattice",
+  "block.artistic_additions.crimson_crate": "Crimson Crate",
   "block.artistic_additions.crimson_lattice": "Crimson Lattice",
+  "block.artistic_additions.dark_oak_crate": "Dark Oak Crate",
   "block.artistic_additions.dark_oak_lattice": "Dark Oak Lattice",
+  "block.artistic_additions.jungle_crate": "Jungle Crate",
   "block.artistic_additions.jungle_lattice": "Jungle Lattice",
+  "block.artistic_additions.mangrove_crate": "Mangrove Crate",
   "block.artistic_additions.mangrove_lattice": "Mangrove Lattice",
+  "block.artistic_additions.oak_crate": "Oak Crate",
   "block.artistic_additions.oak_lattice": "Oak Lattice",
+  "block.artistic_additions.spruce_crate": "Spruce Crate",
   "block.artistic_additions.spruce_lattice": "Spruce Lattice",
+  "block.artistic_additions.warped_crate": "Warped Crate",
   "block.artistic_additions.warped_lattice": "Warped Lattice"
 }

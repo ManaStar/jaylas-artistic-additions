@@ -1,5 +1,7 @@
 package com.mitebemodding.artistic_additions.core;
 
+import com.mitebemodding.artistic_additions.core.data.client.AABlockStateProvider;
+import com.mitebemodding.artistic_additions.core.data.client.AAItemModelProvider;
 import com.mitebemodding.artistic_additions.core.data.client.AALanguageProvider;
 import com.mitebemodding.artistic_additions.core.data.server.AALootTableProvider;
 import com.mitebemodding.artistic_additions.core.data.server.AARecipeProvider;
@@ -52,6 +54,8 @@ public class ArtisticAdditions
 
         //Client
         generator.addProvider(event.includeClient(), new AALanguageProvider(generator));
+        generator.addProvider(event.includeClient(), new AABlockStateProvider(generator, fileHelper));
+        generator.addProvider(event.includeClient(), new AAItemModelProvider(generator, fileHelper));
 
         //Server
         generator.addProvider(event.includeServer(), new AALootTableProvider(generator));

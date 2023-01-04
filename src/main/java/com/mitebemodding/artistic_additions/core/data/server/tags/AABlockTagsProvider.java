@@ -25,11 +25,24 @@ public class AABlockTagsProvider extends BlockTagsProvider {
                 AABlocks.DARK_OAK_LATTICE.get(),
                 AABlocks.MANGROVE_LATTICE.get(),
                 AABlocks.CRIMSON_LATTICE.get(),
-                AABlocks.WARPED_LATTICE.get()
+                AABlocks.WARPED_LATTICE.get(),
+
+                AABlocks.OAK_CRATE.get(),
+                AABlocks.SPRUCE_CRATE.get(),
+                AABlocks.BIRCH_CRATE.get(),
+                AABlocks.JUNGLE_CRATE.get(),
+                AABlocks.ACACIA_CRATE.get(),
+                AABlocks.DARK_OAK_CRATE.get(),
+                AABlocks.MANGROVE_CRATE.get(),
+                AABlocks.CRIMSON_CRATE.get(),
+                AABlocks.WARPED_CRATE.get()
         );
         tag(BlockTags.NON_FLAMMABLE_WOOD).add(
                 AABlocks.CRIMSON_LATTICE.get(),
-                AABlocks.WARPED_LATTICE.get()
+                AABlocks.WARPED_LATTICE.get(),
+
+                AABlocks.CRIMSON_CRATE.get(),
+                AABlocks.WARPED_CRATE.get()
         );
     }
 }
